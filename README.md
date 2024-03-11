@@ -1,3 +1,4 @@
+Password Manager
 This Python project aims to create a local password manager, ensuring the security of stored credentials. The manager will use encryption techniques to save both the master password and other stored passwords.
 
 Features
