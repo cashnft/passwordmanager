@@ -6,3 +6,9 @@ Features
 2. Password Storage: All user passwords are stored in an encrypted form.
 
 3. User friendly Interface: The system provides an interface for adding, retrieving, and managing passwords.
+
+Encryption
+The project utilizes SHA-256, a complex hashing function, to protect the sensitive information. This ensures that even if unauthorized access occurs the stored passwords remain secure.
+
+Interface
+The password manager will feature a simple console based interface. The user can navigate to the different options and add and receive passwords easily.
