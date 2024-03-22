@@ -2,13 +2,13 @@
 A secure and easy to use password manager built with Python, using Tkinter for the UI and cryptography for encrypting the data.
 ## Instructions to Run the Application
 
-2. **Dependencies**:
+1. **Dependencies**:
    Install the required Python ppackages:
    ```bash
    pip install tk cryptography
    ```
 
-3. **Starting the Application**:
+2. **Starting the Application**:
    Navigate to the project directory and run the command:
    ```bash
    python password_manager.py
