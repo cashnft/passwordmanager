@@ -1,15 +1,40 @@
 # Password Manager
-This Python project aims to create a local password manager, ensuring the security of stored credentials. The manager will use encryption techniques to save both the master password and other stored passwords.
+A secure and easy to use password manager built with Python, using Tkinter for the UI and cryptography for encrypting the data.
+## Instructions to Run the Application
 
-Features
-1. Master Password Encryption: The master password is securely encrypted(SHA256 encryption)
-   
-2. Password Storage: All user passwords are stored in an encrypted form.
+2. **Dependencies**:
+   Install the required Python ppackages:
+   ```bash
+   pip install tk cryptography
+   ```
 
-3. User friendly Interface: The system provides an interface for adding, retrieving, and managing passwords.
+3. **Starting the Application**:
+   Navigate to the project directory and run the command:
+   ```bash
+   python password_manager.py
+   ```
 
-## Encryption
-The project utilizes SHA-256, a complex hashing function, to protect the sensitive information. This ensures that even if unauthorized access occurs the stored passwords remain secure.
 
-## Interface
-The password manager will feature a simple console based interface. The user can navigate to the different options and add and receive passwords easily.
+
+## Screenshots
+-1
+-2
+
+## Security Discussion
+
+### What it Protect Against
+
+The Password Manager is designed to protect against unauthorized access of the stored passwords. The threats being:
+- Hackers trying to access your data by hacking your computer.
+- Malware that tries to read your files and steal information.
+
+
+###  Limitations
+
+- **Local Storage**: While storing data locally reduces the risk of online breaches, but it means that your data could still be at risk if your computer is compromised or stolen. 
+- **Master Password Recovery**: There is no way to recover your master password if it is forgotten.
+- **No Two-Factor Authentication**: Currently, the application does not support two-factor authentication.
+
+## Conclusion
+
+While our Password Manager provides a secure way to store and manage your passwords with strong encryption, its stillimportant to have a good security practices, such as keeping your operating system uptodate and using antivirus software. Also the security of the program is dependend on the complexity of your masterpassword.
