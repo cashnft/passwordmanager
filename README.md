@@ -17,8 +17,8 @@ A secure and easy to use password manager built with Python, using Tkinter for t
 
 
 ## Screenshots
--1
--2
+![Start screen](screen1.png)
+![Screen after login](screen2.png)
 
 ## Security Discussion
 
