@@ -49,10 +49,11 @@ class PasswordManagerApp(tk.Tk):
 
         Label(self.main_frame, text="Enter Master Password:").pack()
         
-        self.login_master_password_entry = Entry(self.main_frame, show="*")
-        self.login_master_password_entry.pack()
+        self.master_password_entry = Entry(self.main_frame, show="*")  
+        self.master_password_entry.pack()
         
         Button(self.main_frame, text="Submit", command=self.verify_master_password).pack()
+
 
     def initialize_ui(self):
         self.main_frame = tk.Frame(self)
